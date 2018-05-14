@@ -55,11 +55,11 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     public void onClick(View view) {
 
         if(view == buttonLogout){
-            finish();
+
             mAuth.signOut();
             LoginManager.getInstance().logOut();
-
-
+            finish();
+            startActivity(new Intent(this, LoginActivity.class));
         }
 
     }
