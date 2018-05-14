@@ -1,0 +1,524 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:2:1-51:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.33.0.aar/fbf8ee9e5a9c880ddfa0c43e854dcf4a/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-login-4.33.0.aar/ec18e4de111e2f32924e805fb8a38478/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-share-4.33.0.aar/664792e783d16d4c14dc34aa7d645066/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-common-4.33.0.aar/82cca3404d2f2c64afe3d1dc31ac6e61/AndroidManifest.xml:21:1-36:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cad626e41b6d171e13d13b02d2d5dc4f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/38c844a5c128bdb76071c941ca89f105/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/09671ca67ce20fe2647983916fffbeba/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:17:1-39:12
+MERGED from [com.facebook.android:facebook-places:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-places-4.33.0.aar/487ffb5f3776393f1a6406da0968e670/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.33.0.aar/b3be0844d245101de9e26b646b0e8fa9/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.33.0.aar/9556fec136de7a25e82c47dbf6b64e0a/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/d298867d7f252717d264499085482f07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/f6391a24b8a2fe17e4850d906336f5e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/3accb6d81593432cf9ae7c54d01822d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/14234ecf9c4214eb04d286117a4a5822/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/a5b299a1a9c89aa00be7d76d51336edc/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/078f829394ae8097aaadeabf852d5f74/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/21adbd69992925e319d8ab3323373744/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/66e80e822a3a931cfc4dfd5be36d21a0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/9ca7a44e4c73589659051c5629673910/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7e63501a9c640988c2b6e190881de34e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/60d9d71ea9db517ecce77dd556c124c1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a763d271b35fa4b4d020807b38f38010/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/ede8e8604f4f433befecadd8af150315/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a650fdc7bc5d515cdbac9318343ede92/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/1b39fe8dd352b25fc9e98b9b8b0fe71b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d26fe8e64b450dc9ac896ffefb1bcf34/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e2881ed2e10f885636f5d0f79636f070/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/1ae9697e8f0cf8d8ac662b46a445c25e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8efdf0c68b0b1cbafa59632cce9757a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c0d7709022c59eeaf386ac4a5851662d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5305785b4f330c036377fc93529ed1d5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a6b4b43608fa99187b5e23d288117dac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/6ca31c6d8f3b17ee07e556d281f8916b/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6575dd79e65948ec8c391ba3abd162a3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/77fa11cf89cdf53db3da2557ea95c7d5/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:2:1-51:12
+		INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:2:1-51:12
+		INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:7:5-49:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.33.0.aar/fbf8ee9e5a9c880ddfa0c43e854dcf4a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.33.0.aar/fbf8ee9e5a9c880ddfa0c43e854dcf4a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-login-4.33.0.aar/ec18e4de111e2f32924e805fb8a38478/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-login-4.33.0.aar/ec18e4de111e2f32924e805fb8a38478/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-share-4.33.0.aar/664792e783d16d4c14dc34aa7d645066/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-share-4.33.0.aar/664792e783d16d4c14dc34aa7d645066/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-common-4.33.0.aar/82cca3404d2f2c64afe3d1dc31ac6e61/AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-common-4.33.0.aar/82cca3404d2f2c64afe3d1dc31ac6e61/AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/38c844a5c128bdb76071c941ca89f105/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/38c844a5c128bdb76071c941ca89f105/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/09671ca67ce20fe2647983916fffbeba/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/09671ca67ce20fe2647983916fffbeba/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:22:5-37:19
+MERGED from [com.facebook.android:facebook-places:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-places-4.33.0.aar/487ffb5f3776393f1a6406da0968e670/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-places-4.33.0.aar/487ffb5f3776393f1a6406da0968e670/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.33.0.aar/b3be0844d245101de9e26b646b0e8fa9/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.33.0.aar/b3be0844d245101de9e26b646b0e8fa9/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.33.0.aar/9556fec136de7a25e82c47dbf6b64e0a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.33.0.aar/9556fec136de7a25e82c47dbf6b64e0a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:28:5-51:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/078f829394ae8097aaadeabf852d5f74/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/078f829394ae8097aaadeabf852d5f74/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/21adbd69992925e319d8ab3323373744/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/21adbd69992925e319d8ab3323373744/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/66e80e822a3a931cfc4dfd5be36d21a0/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/66e80e822a3a931cfc4dfd5be36d21a0/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/9ca7a44e4c73589659051c5629673910/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/9ca7a44e4c73589659051c5629673910/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7e63501a9c640988c2b6e190881de34e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7e63501a9c640988c2b6e190881de34e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/60d9d71ea9db517ecce77dd556c124c1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/60d9d71ea9db517ecce77dd556c124c1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a763d271b35fa4b4d020807b38f38010/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a763d271b35fa4b4d020807b38f38010/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/6ca31c6d8f3b17ee07e556d281f8916b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/6ca31c6d8f3b17ee07e556d281f8916b/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:13:9-40
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:14:9-16:55
+	android:value
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:16:13-52
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:15:13-58
+activity#com.facebook.FacebookActivity
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:18:9-21:48
+MERGED from [com.facebook.android:facebook-common:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-common-4.33.0.aar/82cca3404d2f2c64afe3d1dc31ac6e61/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-common-4.33.0.aar/82cca3404d2f2c64afe3d1dc31ac6e61/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:21:13-45
+	android:configChanges
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:20:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-common-4.33.0.aar/82cca3404d2f2c64afe3d1dc31ac6e61/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:19:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:22:9-33:20
+	android:exported
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:23:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:25:13-32:29
+action#android.intent.action.VIEW
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:28:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:29:17-78
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:29:27-75
+data
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:31:17-75
+	android:scheme
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:31:23-72
+activity#br.com.nerdspace.MainActivity
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:35:9-41:20
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:35:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:39:27-74
+activity#br.com.nerdspace.LoginActivity
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:43:9-44:59
+	android:theme
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:43:19-48
+activity#br.com.nerdspace.ProfileActivity
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:46:9-53
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:46:19-50
+activity#br.com.nerdspace.RegisterActivity
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:47:9-54
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:47:19-51
+activity#br.com.nerdspace.ForgotPasswordActivity
+ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:48:9-69
+	android:name
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml:48:19-57
+uses-sdk
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.android:facebook-android-sdk:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.33.0.aar/fbf8ee9e5a9c880ddfa0c43e854dcf4a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.33.0.aar/fbf8ee9e5a9c880ddfa0c43e854dcf4a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-login-4.33.0.aar/ec18e4de111e2f32924e805fb8a38478/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-login-4.33.0.aar/ec18e4de111e2f32924e805fb8a38478/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-share-4.33.0.aar/664792e783d16d4c14dc34aa7d645066/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-share-4.33.0.aar/664792e783d16d4c14dc34aa7d645066/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-common-4.33.0.aar/82cca3404d2f2c64afe3d1dc31ac6e61/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-common-4.33.0.aar/82cca3404d2f2c64afe3d1dc31ac6e61/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cad626e41b6d171e13d13b02d2d5dc4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cad626e41b6d171e13d13b02d2d5dc4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/38c844a5c128bdb76071c941ca89f105/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/38c844a5c128bdb76071c941ca89f105/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/09671ca67ce20fe2647983916fffbeba/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/09671ca67ce20fe2647983916fffbeba/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-places-4.33.0.aar/487ffb5f3776393f1a6406da0968e670/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-places-4.33.0.aar/487ffb5f3776393f1a6406da0968e670/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.33.0.aar/b3be0844d245101de9e26b646b0e8fa9/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.33.0.aar/b3be0844d245101de9e26b646b0e8fa9/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.33.0.aar/9556fec136de7a25e82c47dbf6b64e0a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.33.0.aar/9556fec136de7a25e82c47dbf6b64e0a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/d298867d7f252717d264499085482f07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/d298867d7f252717d264499085482f07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/f6391a24b8a2fe17e4850d906336f5e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/f6391a24b8a2fe17e4850d906336f5e3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/3accb6d81593432cf9ae7c54d01822d4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/3accb6d81593432cf9ae7c54d01822d4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/14234ecf9c4214eb04d286117a4a5822/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/14234ecf9c4214eb04d286117a4a5822/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/a5b299a1a9c89aa00be7d76d51336edc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/a5b299a1a9c89aa00be7d76d51336edc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/078f829394ae8097aaadeabf852d5f74/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/078f829394ae8097aaadeabf852d5f74/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/21adbd69992925e319d8ab3323373744/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/21adbd69992925e319d8ab3323373744/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/66e80e822a3a931cfc4dfd5be36d21a0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/66e80e822a3a931cfc4dfd5be36d21a0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/9ca7a44e4c73589659051c5629673910/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/9ca7a44e4c73589659051c5629673910/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7e63501a9c640988c2b6e190881de34e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7e63501a9c640988c2b6e190881de34e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/60d9d71ea9db517ecce77dd556c124c1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/60d9d71ea9db517ecce77dd556c124c1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a763d271b35fa4b4d020807b38f38010/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a763d271b35fa4b4d020807b38f38010/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/ede8e8604f4f433befecadd8af150315/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/ede8e8604f4f433befecadd8af150315/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a650fdc7bc5d515cdbac9318343ede92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a650fdc7bc5d515cdbac9318343ede92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/1b39fe8dd352b25fc9e98b9b8b0fe71b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/1b39fe8dd352b25fc9e98b9b8b0fe71b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d26fe8e64b450dc9ac896ffefb1bcf34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d26fe8e64b450dc9ac896ffefb1bcf34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e2881ed2e10f885636f5d0f79636f070/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e2881ed2e10f885636f5d0f79636f070/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/1ae9697e8f0cf8d8ac662b46a445c25e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/1ae9697e8f0cf8d8ac662b46a445c25e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8efdf0c68b0b1cbafa59632cce9757a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8efdf0c68b0b1cbafa59632cce9757a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c0d7709022c59eeaf386ac4a5851662d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c0d7709022c59eeaf386ac4a5851662d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5305785b4f330c036377fc93529ed1d5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5305785b4f330c036377fc93529ed1d5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a6b4b43608fa99187b5e23d288117dac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a6b4b43608fa99187b5e23d288117dac/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/6ca31c6d8f3b17ee07e556d281f8916b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/6ca31c6d8f3b17ee07e556d281f8916b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6575dd79e65948ec8c391ba3abd162a3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6575dd79e65948ec8c391ba3abd162a3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/77fa11cf89cdf53db3da2557ea95c7d5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/77fa11cf89cdf53db3da2557ea95c7d5/AndroidManifest.xml:20:5-44
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marbetramon/Desktop/NerdSpace/NerdSpace_Project/app/src/main/AndroidManifest.xml
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-common-4.33.0.aar/82cca3404d2f2c64afe3d1dc31ac6e61/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-common-4.33.0.aar/82cca3404d2f2c64afe3d1dc31ac6e61/AndroidManifest.xml:33:19-68
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/5fd25123f8bd20057692eb8bfd673f13/AndroidManifest.xml:24:13-85
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/533c959f0b69ec3e5826483b72b96eea/AndroidManifest.xml:34:13-89
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.33.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/facebook-core-4.33.0.aar/287cfae5b536897d61b3d498fa3831fe/AndroidManifest.xml:48:25-92
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/9f32f053dd3d96f9aff9940eb52c4c25/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/25207662927a318968e429ddccb72a43/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:29:9-63
+permission#br.com.nerdspace.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:32:22-76
+uses-permission#br.com.nerdspace.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:32:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:35:18-89
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:br.com.nerdspace
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:48:27-58
+category#br.com.nerdspace
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/618fab3b964ddd6b4a4a40e2429c81cb/AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/21adbd69992925e319d8ab3323373744/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/21adbd69992925e319d8ab3323373744/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/21adbd69992925e319d8ab3323373744/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/21adbd69992925e319d8ab3323373744/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/66e80e822a3a931cfc4dfd5be36d21a0/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/66e80e822a3a931cfc4dfd5be36d21a0/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/66e80e822a3a931cfc4dfd5be36d21a0/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/66e80e822a3a931cfc4dfd5be36d21a0/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/66e80e822a3a931cfc4dfd5be36d21a0/AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a763d271b35fa4b4d020807b38f38010/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a763d271b35fa4b4d020807b38f38010/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marbetramon/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a763d271b35fa4b4d020807b38f38010/AndroidManifest.xml:24:13-58
