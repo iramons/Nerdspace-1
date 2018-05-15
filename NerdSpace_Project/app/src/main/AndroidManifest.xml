@@ -43,9 +43,14 @@
         <activity android:name=".LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".RegisterActivity" />
+
         <activity android:name=".ForgotPasswordActivity"></activity>
+
     </application>
+
 
 </manifest>

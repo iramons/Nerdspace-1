@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -104,7 +103,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         });
 
-        initComponent();
+        initFacebookComponent();
         initFirebaseCallback();
         onClickFacebookLoginButton();
 
@@ -231,7 +230,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 //    }
 
     /*FACEBOOK COMPONENT*/
-    private void initComponent() {
+    private void initFacebookComponent() {
         mFacebookLoginButton = (LoginButton) findViewById(R.id.buttonFacebookSignin);
         mFacebookLoginButton.setReadPermissions("email","public_profile");
     }
