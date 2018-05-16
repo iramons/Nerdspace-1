@@ -81,7 +81,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
             //ends the activity
             this.finish();
         }
-
         return super.onOptionsItemSelected(item);
     }
+
 }

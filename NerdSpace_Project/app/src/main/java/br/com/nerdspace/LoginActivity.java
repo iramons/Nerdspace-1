@@ -1,5 +1,6 @@
 package br.com.nerdspace;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -7,9 +8,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -106,8 +113,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         initFirebaseCallback();
         onClickFacebookLoginButton();
 
-    } /*** fim onCreate method ***/
 
+    } /*** fim onCreate method ***/
 
 
     /*************************************
@@ -136,20 +143,18 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
+
                         progressDialog.dismiss();
 
                         if(task.isSuccessful()){
-
+                            Intent mainIntent = new Intent(LoginActivity.this, MainActivity.class);
+                            mainIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                            startActivity(mainIntent);
                             finish();
-                            startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
-
                         } else {
-
                             Toast.makeText(LoginActivity.this, "   Falha na Autenticação: \n" + "Email ou Senha incorretos!",
                                     Toast.LENGTH_LONG).show();
-
                         }
-
                     }
 
                 });
@@ -220,7 +225,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     } /*************************************/
 
-    
+
 
     /*FACEBOOK COMPONENT*/
     private void initFacebookComponent() {
@@ -309,12 +314,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     }
 
-
     /*** Alert ***/
     private void alert(String s) {
 
         Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
 
     }
+
 
 } /*** fim activity ***/
