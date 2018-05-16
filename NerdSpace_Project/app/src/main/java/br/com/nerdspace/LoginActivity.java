@@ -56,7 +56,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private static final String TAG = "GoogleActivity";
     private static final int RC_SIGN_IN = 9001;
 
-    //test2
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,7 +82,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         textViewSignup.setOnClickListener(this);
         textViewForgotpassword.setOnClickListener(this);
 
-        // Configura Google Sign in
+        //configura Google Sign in
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
@@ -221,13 +220,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     } /*************************************/
 
-
-
-
-//    private void signIn() {
-//        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
-//        startActivityForResult(signInIntent, 101);
-//    }
+    
 
     /*FACEBOOK COMPONENT*/
     private void initFacebookComponent() {
